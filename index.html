@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hidden Numbers — Destek</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #f6f7f9; --card: #ffffff; --ink: #1b2742;
+    --muted: #5a6478; --line: #e2e6ed; --accent: #b8820c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #141d34; --card: #1c2742; --ink: #e9eef6;
+      --muted: #9aa6bd; --line: #2b3854; --accent: #ffc53d;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 0 16px; background: var(--bg); color: var(--ink);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding-block: 48px 72px; }
+  header { display: flex; align-items: center; gap: 16px; margin-bottom: 8px; }
+  .mark {
+    width: 56px; height: 56px; border-radius: 13px; flex: none;
+    background: linear-gradient(#263658, #141d34);
+    display: grid; place-items: center; color: #ffc53d; font-weight: 700; font-size: 24px;
+  }
+  h1 { font-size: 28px; margin: 0; letter-spacing: -0.01em; }
+  .sub { color: var(--muted); margin: 4px 0 0; }
+  section {
+    background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+    padding: 24px 26px; margin-top: 22px;
+  }
+  h2 { font-size: 19px; margin: 0 0 12px; }
+  h3 { font-size: 15px; margin: 22px 0 6px; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+  ul { padding-left: 20px; margin: 10px 0; }
+  li { margin: 5px 0; }
+  a { color: var(--accent); }
+  .lead { font-size: 17px; }
+  .note { color: var(--muted); font-size: 14px; }
+  .privacy-link {
+    display: block; margin-top: 22px; padding: 18px 22px; border-radius: 14px;
+    background: var(--card); border: 1px solid var(--line);
+    text-decoration: none; color: var(--ink);
+  }
+  .privacy-link strong { display: block; font-size: 17px; }
+  .privacy-link span { color: var(--muted); font-size: 14px; }
+  footer { margin-top: 32px; color: var(--muted); font-size: 13px; text-align: center; }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 30px 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="mark">7</div>
+    <div>
+      <h1>Hidden Numbers</h1>
+      <p class="sub">Destek</p>
+    </div>
+  </header>
+
+  <section>
+    <h2>Yardıma mı ihtiyacın var?</h2>
+    <p class="lead">Bir sorun, bir soru ya da bir öneri — yaz, cevaplayayım.</p>
+    <p><strong>E-posta:</strong> <a href="mailto:support@ztlsoftware.com">support@ztlsoftware.com</a></p>
+    <p class="note">Genelde birkaç gün içinde dönüş yapılır. Bir hatayı bildiriyorsan cihaz modelini,
+    iOS sürümünü ve sorunun nasıl tekrarlandığını yazman çok yardımcı olur.</p>
+
+    <h3>Sık sorulanlar</h3>
+
+    <p><strong>Oyun nasıl oynanıyor?</strong><br>
+    Izgarada sayılar kısa bir süre görünür, sonra gizlenir. Sayılara küçükten büyüğe doğru sırayla
+    dokunman gerekir. Yanlış dokunuşta bir can gider.</p>
+
+    <p><strong>İpucu ne işe yarıyor?</strong><br>
+    Sıradaki sayıyı bir saniyeliğine gösterir. Kolay'da 3, Orta'da 2, Zor'da 1 hakkın var ve her
+    seviyede yenilenir.</p>
+
+    <p><strong>İlerlemem kayboldu.</strong><br>
+    İlerleme yalnızca cihazında saklanıyor. Uygulamayı silmek ya da cihaz değiştirmek kayıtları
+    sıfırlar; şu an bulut yedeği yok.</p>
+
+    <p><strong>İnternet gerekiyor mu?</strong><br>
+    Hayır. Oyun tamamen çevrimdışı çalışır.</p>
+  </section>
+
+  <a class="privacy-link" href="privacy.html">
+    <strong>Gizlilik Politikası →</strong>
+    <span>Hidden Numbers hiçbir kişisel veri toplamaz. Ayrıntılar için tıkla.</span>
+  </a>
+
+  <hr>
+
+  <section>
+    <h2>Support (English)</h2>
+    <p class="lead">Found a problem or have a suggestion? Get in touch.</p>
+    <p><strong>Email:</strong> <a href="mailto:support@ztlsoftware.com">support@ztlsoftware.com</a></p>
+    <p class="note">Replies usually arrive within a few days. For bug reports, please include your
+    device model, iOS version, and the steps that reproduce the issue.</p>
+
+    <h3>How to play</h3>
+    <p>Numbers appear on the grid for a short time, then disappear. Tap them in ascending order.
+    A wrong tap costs one life. Hints briefly reveal the next number — 3 on Easy, 2 on Medium,
+    1 on Hard.</p>
+
+    <h3>Does it need internet?</h3>
+    <p>No. The game works fully offline. Progress is stored on your device only and is lost if you
+    delete the app.</p>
+
+    <p class="note"><a href="privacy.html">Privacy Policy →</a></p>
+  </section>
+
+  <footer>© 2026 Abdulvahap Öztel · Hidden Numbers</footer>
+
+</div>
+</body>
+</html>
